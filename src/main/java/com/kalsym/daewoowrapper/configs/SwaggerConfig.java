@@ -18,7 +18,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 //.paths(PathSelectors.any())
-                .apis(RequestHandlerSelectors.basePackage("com.kalsym.daewoodelivery"))
+                .apis(RequestHandlerSelectors.basePackage("com.kalsym.daewoowrapper"))
                 .build()
                 .apiInfo(apiInfo());
     }
